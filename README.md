@@ -1,5 +1,7 @@
 # Quick Start Notes
 
+Quickstart App Deployed to [Github Pages](https://makaliifernandez.com/firebase-quickstart-learning-app/)
+
 [Firebase CLI reference](https://firebase.google.com/docs/cli)
 
 To start app locally run:
@@ -44,7 +46,7 @@ service cloud.firestore {
     //       request.time < timestamp.date(2021, 7, 7);
     // }
 
-    // This is the rule to allow authorized requests
+    // This is the rule to allow authorized requests scoped to the logged in users data
     match /things/{docId} {
       allow write: if request.auth.uid == request.resource.data.uid;
       allow read: if request.auth.uid == resource.data.uid;
