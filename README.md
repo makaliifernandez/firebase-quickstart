@@ -1,7 +1,5 @@
 # Quick Start Notes
 
-Quickstart App Deployed to [Github Pages](https://makaliifernandez.com/firebase-quickstart-learning-app/)
-
 [Firebase CLI reference](https://firebase.google.com/docs/cli)
 
 To start app locally run:
@@ -18,9 +16,9 @@ firebase deploy
 
 ---
 
-Following through this tutorial [Fireship - Firebase Quickstart](https://fireship.io/lessons/firebase-quickstart/) to get a better understanding of the basics of User Authentication and Security when using Firebase.
+## [The Example Quickstart App Deployed to Github Pages](https://makaliifernandez.com/firebase-quickstart-learning-app/)
 
-Will be using Firebase to host these learning projects on, and I want to make sure my resources are secure.
+I worked through this tutorial [Fireship - Firebase Quickstart](https://fireship.io/lessons/firebase-quickstart/) to get a better understanding of the basics of User Authentication and Security when using Firebase.
 
 Useful links:
 
